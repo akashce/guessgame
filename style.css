@@ -1,0 +1,38 @@
+*{
+	font-family: cursive;
+	font-size: 60px;
+
+	background-color: rgb(181, 109, 16);
+	color: #040404;
+	text-align: center;
+}
+
+body{
+	padding: 5px;
+	align-content: center;
+	display: block;
+}
+
+#new-game-btn{
+	padding: 10px 20% 10px 20%;
+	
+}
+
+#yes-btn, #higher-btn, #lower-btn{
+	padding: 10px;
+}
+
+button:hover{
+	background-color: #d21919;
+}
+
+button{
+	border-radius: 100px;
+	margin: 20px;
+	border: 5px white solid;
+	transition: 0.5s;
+}
+
+.colored-txt{
+	color: rgb(16, 30, 230);
+}
